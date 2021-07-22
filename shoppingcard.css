@@ -1,0 +1,39 @@
+            .shop-items {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .btn-danger {
+                padding: auto 20;
+                height: 20 px;
+            }
+            
+            .fa {
+                font-size: 20px;
+            }
+            
+            .header {
+                background-color: rgb(240, 38, 163);
+                display: flex;
+                justify-content: flex-start;
+                border: 1px rebeccapurple solid;
+                align-items: center;
+            }
+            
+            .cart-quantity-input {
+                width: 50px;
+            }
+            
+            .btn-mins,
+            .btn-plus {
+                background-color: rgb(86, 248, 11);
+                padding: 6px 12px;
+                border: none;
+                display: inline-block;
+                font-weight: 400;
+                color: #212529;
+                cursor: pointer;
+                border-radius: 5px;
+                box-shadow: teal 1px 1px;
+            }
